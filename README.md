@@ -17,7 +17,7 @@ The same setup is enough for our repository also
 clone it using
 
 ```
-git clone https://github.com/Verified-Intelligence/alpha-beta-CROWN.git
+git clone https://github.com/Aaavek/modified-abcrown.git
 ```
 
 Setup the conda environment
