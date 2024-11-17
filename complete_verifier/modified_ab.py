@@ -563,8 +563,7 @@ class ABCROWN:
             for i in range(n - m + 1):
                 for j in range(n - m + 1):
                     q.append((i, j))
-
-        if (n - m) > 0:
+        elif (n - m) > 0:
             q.append((n - m, n - m))
             q.append((n - m, 0))
             q.append((0, n - m))
