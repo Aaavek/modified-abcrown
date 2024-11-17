@@ -1,0 +1,18 @@
+model:
+  name: mnist_cnn_4layer
+  path: models/sdp/mnist_cnn_a_adv.model
+  data_min: 0.0
+  data_max: 1.0
+data:
+  dataset: None
+specification:
+  epsilon: 0.7
+  norm: .inf
+attack:
+  pgd_restarts: 50
+solver:
+  batch_size: 1024
+  beta-crown:
+    iteration: 20
+bab:
+  timeout: 30
